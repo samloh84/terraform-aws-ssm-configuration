@@ -1,8 +1,6 @@
 resource "aws_s3_bucket" "ssm_logs_s3_bucket" {
-  bucket = "var.ssm_logs_s3_bucket_name_prefix"
-
+  bucket_prefix = var.s3_bucket_prefix_ssm_logs
   force_destroy = true
-
 }
 
 
