@@ -3,9 +3,9 @@ variable "cloudwatch_log_group_ssm_logs" {
   description = "Cloudwatch Log Group Name for SSM logs"
 }
 
-variable "s3_bucket_prefix_ssm_logs" {
+variable "s3_bucket_ssm_logs" {
   type = string
-  description = "S3 Bucket Name Prefix for SSM logs"
+  description = "S3 Bucket Name for SSM logs"
 }
 
 variable "aws_principals" {
